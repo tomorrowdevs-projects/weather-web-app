@@ -1,34 +1,18 @@
- Create an onboarding process using the attached mockup file.
+Create a PWA to track Weather conditions given a GPS location
 ===============================
-
-![preview](https://github.com/tomorrowdevs-projects/user-onboarding/blob/main/preview.png "preview")
-
-## Download here the [Figma Mockup](https://github.com/tomorrowdevs-projects/user-onboarding/blob/main/User_onboarding.fig)
 
 Requirements:
 ----------------
-- Respect exactly the provided layout
+- Enable Browser Location
+- Given the current location, show the current weather conditions using openweather.com public APIs
+- Given the current location, show a list of the nearest places with a sunny forecast for the next 2-3 days
+- Provide the same behavior by input a custom Location
+- Webapp should be used from mobile as well
+- Use Javascript ES6 syntax and functions
 - Deploy the project towards Netlify (www.netlify.com) connected to your GitHub Repo
-- The form should be validated and should prompt success or error messages
-- Error messages should be provided on each field
-
-Level 1:
-----------------
-- Start the project using ReactJs
-- Implement all the components and layouts
-- Provide a validation for each field
-- Use state to store temporary values and show the steps
-- Write tests for each single validation
-
-Level 2:
-----------------
-- Use react-router to navigate between the steps
-- Find a strategy to save temporary values (eg. Context, Redux, LocalStorage)
-
-Level 3:
-----------------
-- Save results with Strapi (https://strapi.io)
-- Show a loader while calling the api and provide a feedback for success or error messages
+- After the project is deployed, analyze it with https://web.dev
+- Allow the app to be installed on a device
+- Allow the app to work offline caching the last provided results (of course search shouldn't work)
 
 Before starting any of the tasks in this Learning Path, please READ the following rules
 ===============================
